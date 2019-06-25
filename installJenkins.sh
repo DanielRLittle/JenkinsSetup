@@ -7,8 +7,7 @@ sudo useradd --create-home jenkins
 
 sudo usermod --shell /bin/bash jenkins
 
-sudo su - jenkins -c "wget 
-http://updates.jenkins-ci.org/latest/jenkins.war"
+sudo su - jenkins -c "wget http://updates.jenkins-ci.org/latest/jenkins.war"
 
 sudo mv ~/JenkinsSetup/jenkins.service /etc/systemd/system/
 
