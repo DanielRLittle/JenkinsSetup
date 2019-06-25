@@ -7,10 +7,7 @@ sudo useradd --create-home jenkins
 
 sudo usermod --shell /bin/bash jenkins
 
-sudo "su - jenkins; wget 
-http://updates.jenkins-ci.org/latest/jenkins.war"
-
-exit
+sudo "su - jenkins; wget http://updates.jenkins-ci.org/latest/jenkins.war"
 
 configureScript() {
 	echo "[Unit]"
@@ -32,3 +29,5 @@ sudo systemctl daemon-reload
 sudo systemctl start jenkins
 
 sudo systemctl enable jenkins
+
+exit
