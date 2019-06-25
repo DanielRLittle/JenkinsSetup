@@ -5,7 +5,7 @@ sudo systemctl disable jenkins
 
 sudo systemctl stop jenkins
 
-sudo userdel -f jenkins
+sudo userdel -fr jenkins
 
 sudo rm /etc/systemd/system/jenkins.service
 
