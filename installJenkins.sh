@@ -10,7 +10,7 @@ sudo usermod --shell /bin/bash jenkins
 sudo su - jenkins -c "wget 
 http://updates.jenkins-ci.org/latest/jenkins.war"
 
-sudo mv ~/jenkins.service /etc/systemd/system/
+sudo mv ~/JenkinsSetup/jenkins.service /etc/systemd/system/
 
 sudo systemctl daemon-reload
 
