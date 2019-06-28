@@ -3,6 +3,8 @@
 
 sudo apt install -y wget vim openjdk-8-jdk openjdk-8-jre
 
+sudo apt install -y maven
+
 sudo useradd --create-home jenkins
 
 sudo usermod --shell /bin/bash jenkins
